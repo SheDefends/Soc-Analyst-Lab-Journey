@@ -1,0 +1,46 @@
+# TryHackMe - SOC Simulator Scenario: Unauthorized Access Detection
+
+Date completed: May 10, 2025  
+🔗 [SOC Simulator Dashboard](https://tryhackme.com/soc-sim/dashboard)
+
+---
+
+## Scenario Description
+
+You are a Tier 1 SOC Analyst at ACME Corp. An alert has been triggered in the SIEM about suspicious login activity. Your task is to investigate the incident, determine its validity, and take appropriate action.
+
+---
+
+## Investigation Summary
+
+**Alert Investigated:** Suspicious login detected  
+**Severity:** Medium  
+**Tools Used:** Splunk, Windows Event Logs, Threat Intelligence platforms
+
+### Steps Taken:
+- Logged into the SIEM and identified the triggered alert
+- Used Splunk to search for failed login attempts (Event ID 4625)
+- Filtered logs by IP address and username involved in the alert
+- Found multiple failed logins from IP `101.53.12.18`
+- Checked IP on threat intel site – confirmed as known malicious
+- Correlated login attempts with known working hours – suspicious timing
+- Verified it was not a false positive (user confirmed they weren’t active)
+
+---
+
+## Sample Splunk Queries Used
+
+```spl
+index=win_events EventCode=4625 "Logon Type"="10" 
+
+Final Conclusion
+This was a true positive. A brute-force attempt was made against a user account using a known malicious IP address. The event has been escalated to Tier 2 analysts for further investigation, and the IP was blocked on the firewall.
+
+Skills Practiced
+Log analysis using Splunk
+
+Correlating data across multiple log sources
+
+Threat intelligence lookup
+
+Alert triage and documentation
