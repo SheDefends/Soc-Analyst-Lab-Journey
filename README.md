@@ -1,15 +1,21 @@
+# 🛡️ SOC Analyst Lab Journey
 
-# SOC Analyst Lab Journey
+Welcome to my hands-on learning journey toward becoming a **SOC Analyst**, with a focus on **Blue Team operations**, **threat detection**, and preparation for the **CompTIA Security+ (SY0-701)** certification.
 
-This is my hands-on journey to becoming a SOC Analyst using TryHackMe labs and preparing for the CompTIA Security+ (SY0-701) exam.
+---
 
-## What You'll Find Here
-- TryHackMe room writeups (step-by-step guides)
-- Security+ study notes and flashcards
-- Blue Team tools like Splunk, Wireshark, Zeek, and Sigma
-- Simple Python scripts for threat hunting
+## 📚 What's Inside
 
-## My TryHackMe Profile
- [Insert your TryHackMe profile link here]
+- 🧠 **TryHackMe Writeups** – Step-by-step guides from SOC-focused rooms  
+- 📘 **Security+ Notes & Flashcards** – Key concepts, cheat sheets, and review material  
+- 🔧 **Blue Team Tools in Action** – Hands-on with:
+  - **Splunk** for log analysis
+  - **Wireshark** and **Zeek** for packet inspection
+  - **Sigma** for detection rules
+- 🐍 **Simple Python Scripts** – Lightweight tools for parsing logs and threat hunting
 
-Let’s hunt threats! 🚨
+---
+
+## 👩🏽‍💻 Let's Hunt Threats!
+
+This repo is constantly updated as I progress through real-world SOC scenarios and build my Blue Team skill set. Whether you're also starting out or just looking for study inspiration—feel free to explore, fork, and learn with me. 🚨
