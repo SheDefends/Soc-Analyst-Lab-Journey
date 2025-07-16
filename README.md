@@ -1,6 +1,13 @@
 # 🛡️ SOC Analyst Lab Journey
 
-Welcome to my hands-on learning journey toward becoming a **SOC Analyst**, with a focus on **Blue Team operations**, **threat detection**, and preparation for the **CompTIA Security+ (SY0-701)** certification.
+Welcome to my hands-on learning journey toward becoming a **SOC Analyst**, with a focus on **Blue Team operations**, **threat detection**, and preparation for the **CompTIA Security+ (SY0-701)** certification.This repo documents my journey as a SOC Analyst using TryHackMe and other platforms. It includes lab notes, incident writeups, and key learning points aligned with real-world SOC workflows.
+
+
+
+- [x] Phishing Detection Lab (TryHackMe)
+- [x] Malware Analysis CLI (TryHackMe)
+- [ ] Elastic SIEM Practice (in progress)
+
 
 ---
 
